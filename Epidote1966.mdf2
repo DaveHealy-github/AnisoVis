@@ -1,0 +1,19 @@
+Epidote
+[lattice]
+Deer, Howie & Zussman 1992
+Monoclinic
+8.8	5.63	10.17
+115.4
+1.715	1.725	1.734
+alpha	z	7
+beta	y	0
+[elasticity]
+Ryzhova 1966 (Bass 1995)
+Monoclinic
+3400
+211.8	66.3	45.2	0	0	0
+66.3	238.7	45.6	0	-8.2	0
+45.2	45.6	202	0	-14.3	0
+0	0	0	39.1	0	-3.4
+0	-8.2	-14.3	0	43.2	0
+0	0	0	-3.4	0	77.5

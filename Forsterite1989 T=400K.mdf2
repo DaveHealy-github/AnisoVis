@@ -1,0 +1,18 @@
+Forsterite, T=400K
+[lattice]
+Deer, Howie & Zussman 1992
+Orthorhombic
+4.75 10.2    5.98
+1.635	1.651	1.670
+gamma	x	0
+alpha	y	0
+[elasticity]
+Isaak et al. 1989 (Anderson & Isaak 1995)
+Orthorhombic
+3221
+326.3	 65.2	 67.0	  0.0	  0.0	  0.0
+ 65.2	197.2	 71.6	  0.0	  0.0	  0.0
+ 67.0	 71.6	233.1	  0.0	  0.0	  0.0
+  0.0	  0.0	  0.0	 65.9	  0.0	  0.0
+  0.0	  0.0	  0.0	  0.0	 80.1	  0.0
+  0.0	  0.0	  0.0	  0.0	  0.0	 79.6

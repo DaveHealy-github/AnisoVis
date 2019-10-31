@@ -1,0 +1,16 @@
+Galena
+[lattice]
+Deer, Howie and Zussman 1992
+Cubic
+5.94
+3.91
+[elasticity]
+Hearmon 1984 (Bass 1995) 
+Cubic
+7597
+127	24.4	24.4	0	0	0
+24.4	127	24.4	0	0	0
+24.4	24.4	127	0	0	0
+0	0	0	23	0	0
+0	0	0	0	23	0
+0	0	0	0	0	23

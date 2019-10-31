@@ -1,0 +1,18 @@
+Fayalite, T=450K
+[lattice]
+Deer, Howie & Zussman 1992
+Orthorhombic
+4.82 10.48    6.09
+1.827	1.869	1.879
+gamma	x	0
+alpha	y	0
+[elasticity]
+Sumino 1979 (Anderson & Isaak 1995)
+Orthorhombic
+4380
+260.7	 92.8	 97.5	  0.0	  0.0	  0.0
+ 92.8	168.4	 97.2	  0.0	  0.0	  0.0
+ 97.5	 97.2	232.4	  0.0	  0.0	  0.0
+  0.0	  0.0	  0.0	 31.4	  0.0	  0.0
+  0.0	  0.0	  0.0	  0.0	 45.8	  0.0
+  0.0	  0.0	  0.0	  0.0	  0.0	 54.5

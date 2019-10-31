@@ -1,0 +1,16 @@
+Cristobalite (beta)
+[lattice]
+Deer, Howie & Zussman 1992
+Cubic
+7.13
+1.485
+[elasticity]
+Pabst & Gregorova 2013
+Cubic
+2390
+45.8	5.8	5.8	0	0	0
+5.8	45.8	5.8	0	0	0
+5.8	5.8	45.8	0	0	0
+0	0	0	45.3	0	0
+0	0	0	0	45.3	0
+0	0	0	0	0	45.3

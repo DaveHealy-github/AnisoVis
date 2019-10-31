@@ -1,0 +1,16 @@
+Zircon (metamict)
+[lattice]
+Deer, Howie, Zussman 1992
+Tetragonal
+6.607	5.982
+1.922	1.961
+[elasticity]
+Hearmon 84 (Bass 1995)
+Tetragonal
+4700
+256	175	214	0	0	0
+175	256	214	0	0	0
+214	214	372	0	0	0
+0	0	0	73.5	0	0
+0	0	0	0	73.5	0
+0	0	0	0	0	116

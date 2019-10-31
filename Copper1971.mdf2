@@ -1,0 +1,16 @@
+Copper
+[lattice]
+https://www.mindat.org/min-1209.html
+Cubic
+3.615
+999
+[elasticity]
+Simmons & Wang, 1971
+Cubic
+8960
+168.4 	121.4 	121.4 	0	0	0
+121.4 	168.4 	121.4	0	0	0
+121.4 	121.4 	168.4 	0	0	0
+0	0	0	75.4 	0	0
+0	0	0	0	75.4 	0
+0	0	0	0	0	75.4

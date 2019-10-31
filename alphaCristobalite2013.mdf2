@@ -1,0 +1,16 @@
+Cristobalite (alpha)
+[lattice]
+Deer, Howie & Zussman 1992
+Tetragonal
+4.97	6.92
+1.484	1.487
+[elasticity]
+Pabst & Gregorova 2013
+Tetragonal
+2390
+54.4	5.4	-2.6	0	0	0
+5.4	54.4	-2.6	0	0	0
+-2.6	-2.6	37.5	0	0	0
+0	0	0	68.2	0	0
+0	0	0	0	68.2	0
+0	0	0	0	0	26.0

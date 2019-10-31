@@ -1,0 +1,16 @@
+Halite
+[lattice]
+Deer, Howie and Zussman 1992
+Cubic
+5.6404
+1.544
+[elasticity]
+Hearmon 1979 (Bass 1995)					
+Cubic
+2163					
+49.1	12.8	12.8	0	0	0
+12.8	49.1	12.8	0	0	0
+12.8	12.8	49.1	0	0	0
+0	0	0	12.8	0	0
+0	0	0	0	12.8	0
+0	0	0	0	0	12.8

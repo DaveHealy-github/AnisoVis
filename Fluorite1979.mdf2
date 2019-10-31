@@ -1,0 +1,16 @@
+Fluorite
+[lattice]
+Deer, Howie & Zussman
+Cubic
+5.463
+1.433
+[elasticity]
+Hearmon 1979 (Bass 1995)
+Cubic
+3181
+165	47	47	0	0	0
+47	165	47	0	0	0
+47	47	165	0	0	0
+0	0	0	33.9	0	0
+0	0	0	0	33.9	0
+0	0	0	0	0	33.9

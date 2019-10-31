@@ -1,0 +1,16 @@
+Zircon P=24 GPa*
+[lattice]
+Deer, Howie & Zussman 1992
+Tetragonal
+6.61	5.99
+1.922	1.961
+[elasticity]
+Dutta & Mandal 2012
+Tetragonal
+4675
+612.2	137.9	222.2	0	0	0
+137.9	612.2	222.2	0	0	0
+222.2	222.2	606.3	0	0	0
+0	0	0	126.8	0	0
+0	0	0	0	126.8	0
+0	0	0	0	0	44.9

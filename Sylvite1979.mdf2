@@ -1,0 +1,16 @@
+Sylvite
+[lattice]
+Deer, Howie and Zussman 1992
+Cubic
+6.2931
+1.4903
+[elasticity]
+Hearmon 1979 (Bass 1995)					
+Cubic
+1987					
+40.5	6.9	6.9	0	0	0
+6.9	40.5	6.9	0	0	0
+6.9	6.9	40.5	0	0	0
+0	0	0	6.27	0	0
+0	0	0	0	6.27	0
+0	0	0	0	0	6.27

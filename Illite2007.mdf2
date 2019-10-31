@@ -1,0 +1,19 @@
+Illite
+[lattice]
+Deer, Howie & Zussman 1992
+Monoclinic
+5.2	9.0	9.0
+90
+1.54	1.57	1.57
+alpha	z	0
+beta	y	0
+[elasticity]
+Bayuk et al. 2007
+Monoclinic
+2790
+179.9	144.9	14.5	0	0	0
+144.9	179.9	14.5	0	0	0
+14.5	14.5	55	0	0	0
+0	0	0	11.7	0	0
+0	0	0	0	11.7	0
+0	0	0	0	0	70.0

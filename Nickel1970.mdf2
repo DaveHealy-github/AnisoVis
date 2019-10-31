@@ -1,0 +1,16 @@
+Nickel
+[lattice]
+https://www.mindat.org/min-2895.html
+Cubic
+3.5238
+999
+[elasticity]
+Musgrave 1970
+Cubic
+8900
+246.5	147.3	147.3	0	0	0
+147.3	246.5	147.3	0	0	0
+147.3	147.3	246.5	0	0	0
+0	0	0	124.7	0	0
+0	0	0	0	124.7	0
+0	0	0	0	0	49.55

@@ -1,0 +1,16 @@
+Stishovite
+[lattice]
+Deer, Howie & Zussman 1992
+Tetragonal
+4.177	2.665
+1.8	1.845
+[elasticity]
+Babuska & Cara 1991 (Bass 1995)
+Tetragonal
+4290
+453	211	203	0	0	0
+211	453	203	0	0	0
+203	203	776	0	0	0
+0	0	0	252	0	0
+0	0	0	0	252	0
+0	0	0	0	0	302

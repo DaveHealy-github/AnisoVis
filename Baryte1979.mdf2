@@ -1,0 +1,18 @@
+Baryte
+[lattice]
+Deer, Howie & Zussman 1992
+Orthorhombic
+8.88	5.45	7.15
+1.636	1.637	1.647
+gamma	x	0
+alpha	z	0
+[elasticity]
+Hearmon 1979 (Bass 1995) 
+Orthorhombic
+4473
+89	47.9	31.7	0	0	0
+47.9	81	29.8	0	0	0
+31.7	29.8	107	0	0	0
+0	0	0	12	0	0
+0	0	0	0	28.1	0
+0	0	0	0	0	26.9

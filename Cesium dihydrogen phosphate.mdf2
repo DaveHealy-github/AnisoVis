@@ -1,0 +1,19 @@
+Cesium dihydrogen phosphate
+[lattice]
+Landolt-Bornstein tables
+Monoclinic
+7.899	6.325	4.890
+108.29
+1.671	1.672	1.703
+beta	y	0
+gamma	z	41
+[elasticity]
+Landolt-Bornstein tables
+Monoclinic
+999.9
+28.83	11.4 	42.87	0.0	5.13	0.0		
+11.4	26.67	14.5	0.0	8.4	0.0
+42.87	14.5	65.45	0.0	7.5	0.0
+0.0	0.0	0.0	8.1	0.0	-2.25
+5.13	8.4	7.5	0.0	5.2	0.0
+0.0	0.0	0.0	-2.25	0.0	9.17

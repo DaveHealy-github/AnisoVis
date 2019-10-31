@@ -1,0 +1,16 @@
+Spinel
+[lattice]
+https://www.mindat.org/min-3729.html
+Cubic
+8.0898
+1.719
+[elasticity]
+Hearmon 1984 (Bass 1995) 
+Cubic
+3578
+282	154	154	0	0	0
+154	282	154	0	0	0
+154	154	282	0	0	0
+0	0	0	154	0	0
+0	0	0	0	154	0
+0	0	0	0	0	154

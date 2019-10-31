@@ -1,0 +1,16 @@
+Lizardite2
+[lattice]
+Deer, Howie & Zussman 1992
+Trigonal
+5.3	7.25
+1.538	1.546
+[elasticity]
+Auzende et al. 2006
+Hexagonal
+2516
+229.1	89	13.56	0	0	0
+89	229.1	13.56	0	0	0
+13.56	13.56	45.84	0	0	0
+0	0	0	12.77	0	0
+0	0	0	0	12.77	0
+0	0	0	0	0	70.02

@@ -1,0 +1,19 @@
+Gypsum
+[lattice]
+Deer, Howie and Zussman 1992
+Monoclinic
+5.6795	15.20214	6.5226
+118.43 
+1.519	1.523	1.529
+alpha	z	38
+beta	y	0
+[elasticity]
+Hearmon, 1979
+Monoclinic
+2317
+78.6	41	26.8	0	-7	0
+41	62.7	24.2	0	3.1	0
+26.8	24.2	72.6	0	-17.4	0
+0	0	0	9.1	0	-1.6
+-7	3.1	-17.4	0	26.4	0
+0	0	0	-1.6	0	10.4

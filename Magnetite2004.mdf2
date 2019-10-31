@@ -1,0 +1,16 @@
+Magnetite
+[lattice]
+Deer, Howie & Zussman 1992
+Cubic
+8.396
+2.42
+[elasticity]
+Reichmann & Jacobsen 2004
+Cubic
+5196
+260.5	148.3	148.3	0	0	0
+148.3	260.5	148.3	0	0	0
+148.3	148.3	260.5	0	0	0
+0	0	0	63.3	0	0
+0	0	0	0	63.3	0
+0	0	0	0	0	56.1

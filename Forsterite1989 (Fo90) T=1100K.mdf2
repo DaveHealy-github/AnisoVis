@@ -1,0 +1,18 @@
+Fo90, T=1100K
+[lattice]
+Deer, Howie & Zussman 1992
+Orthorhombic
+4.75 10.2    5.98
+1.635	1.651	1.670
+gamma	x	0
+alpha	y	0
+[elasticity]
+Isaak et al. 1989 (Anderson & Isaak 1995)
+Orthorhombic
+3225
+289.0	 60.5	 63.4	  0.0	  0.0	  0.0
+ 60.5	172.3	 69.4	  0.0	  0.0	  0.0
+ 63.4	 69.4	206.6	  0.0	  0.0	  0.0
+  0.0	  0.0	  0.0	 53.5	  0.0	  0.0
+  0.0	  0.0	  0.0	  0.0	 67.1	  0.0
+  0.0	  0.0	  0.0	  0.0	  0.0	 65.5

@@ -1,0 +1,16 @@
+Beryl
+[lattice]
+Deer, Howie & Zussman 1992
+Hexagonal
+9.21	9.25
+1.582	1.589
+[elasticity]
+Yoon & Newham 1973 (Bass 1995)
+Hexagonal
+2724
+304.2	123.8	114.5	0	0	0
+123.8	304.2	114.5	0	0	0
+114.5	114.5	277.6	0	0	0
+0	0	0	65.3	0	0
+0	0	0	0	65.3	0
+0	0	0	0	0	90.2

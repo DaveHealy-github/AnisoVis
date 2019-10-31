@@ -1,0 +1,18 @@
+Andalusite
+[lattice]
+Deer, Howie & Zussman 1992
+Orthorhombic
+7.79	7.9	5.55
+1.633	1.639	1.644
+gamma	x	0
+alpha	z	0
+[elasticity]
+Verma 1960 (Bass 1995) 
+Orthorhombic
+3145
+233.4	97.7	116.2	0	0	0
+97.7	289.0	81.4	0	0	0
+116.2	81.4	380.1	0	0	0
+0	0	0	99.5	0	0
+0	0	0	0	87.8	0
+0	0	0	0	0	112.3

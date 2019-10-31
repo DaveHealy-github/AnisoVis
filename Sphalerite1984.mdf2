@@ -1,0 +1,16 @@
+Sphalerite
+[lattice]
+Deer, Howie & Zussman 1992
+Cubic
+5.41
+2.37
+[elasticity]
+Hearmon 1984 (Bass 1995)
+Cubic
+4088
+102	64.6	64.6	0	0	0
+64.6	102	64.6	0	0	0
+64.6	64.6	102	0	0	0
+0	0	0	44.6	0	0
+0	0	0	0	44.6	0
+0	0	0	0	0	44.6

@@ -1,0 +1,16 @@
+Quartz T=573 C
+[lattice]
+Deer, Howie & Zussman 1992 
+Trigonal
+4.913	5.404
+1.544	1.553
+[elasticity]
+Lakshtanov et al. 2007
+Trigonal
+2573
+67.2	-31	-9.7	10	0	0
+-31	67.2	-9.7	-10	0	0
+-9.7	-9.7	78.3	0	0	0
+10	-10	0	39.4	0	0
+0	0	0	0	39.4	10
+0	0	0	0	10	49.1

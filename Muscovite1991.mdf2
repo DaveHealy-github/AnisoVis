@@ -1,0 +1,19 @@
+Muscovite
+[lattice]
+Deer, Howie & Zussman 1992
+Monoclinic
+5.2	9	9
+93
+1.552	1.582	1.587
+gamma	y	0
+alpha	z	3
+[elasticity]
+Babuska & Cara 1991
+Hexagonal
+2790
+178	42.4	14.5	0	0	0
+42.4	178	14.5	0	0	0
+14.5	14.5	54.9	0	0	0
+0	0	0	12.2	0	0
+0	0	0	0	12.2	0
+0	0	0	0	0	67.8

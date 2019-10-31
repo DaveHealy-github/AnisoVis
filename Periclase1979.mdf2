@@ -1,0 +1,16 @@
+Periclase
+[lattice]
+Deer, Howie & Zussman 1992
+Cubic
+4.212
+1.735
+[elasticity]
+Hearmon 1979 (Bass 1995)
+Cubic 
+3584
+294	93	93	0	0	0
+93	294	93	0	0	0
+93	93	294	0	0	0
+0	0	0	155	0	0
+0	0	0	0	155 0
+0	0	0	0	0	155

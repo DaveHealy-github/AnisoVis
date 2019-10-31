@@ -1,0 +1,19 @@
+Muscovite2
+[lattice]
+Deer, Howie & Zussman 1992
+Monoclinic
+5.2	9	9
+93
+1.552	1.582	1.587
+gamma	y	0
+alpha	z	3
+[elasticity]
+Bass 1995
+Monoclinic
+2844
+184.3	48.3	23.8	0	-2	0
+48.3	178.4	21.7	0	3.9	0
+23.8	21.7	59.1	0	1.2	0
+0	0	0	16	0	0.5
+-2	3.9	1.2	0	17.6	0
+0	0	0	0.5	0	72.4

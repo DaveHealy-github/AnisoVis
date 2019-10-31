@@ -1,0 +1,16 @@
+Alpha-Quartz
+[lattice]
+Deer, Howie & Zussman 1992 
+Trigonal
+4.913	5.404
+1.544	1.553
+[elasticity]
+Babuska & Cara, 1991
+Trigonal
+2648
+86.6	6.7	12.6	-17.8	0	0
+6.7	86.6	12.6	17.8	0	0
+12.6	12.6	106.1	0	0	0
+-17.8	17.8	0	57.8	0	0
+0	0	0	0	57.8	-17.8
+0	0	0	0	-17.8	39.9

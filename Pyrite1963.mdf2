@@ -1,0 +1,16 @@
+Pyrite 
+[lattice]
+Deer, Howie & Zussman 1992
+Cubic
+5.417
+999
+[elasticity]
+Simmons & Birch 1963 (Bass 1995) 
+Cubic
+5016
+361	33.6	33.6	0	0	0
+33.6	361	33.6	0	0	0
+33.6	33.6	361	0	0	0
+0	0	0	105.2	0	0
+0	0	0	0	105.2	0
+0	0	0	0	0	105.2

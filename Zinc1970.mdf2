@@ -1,0 +1,16 @@
+Zinc
+[lattice]
+https://www.mindat.org/min-4405.html
+Hexagonal
+2.665	4.947
+999	999	
+[elasticity]
+Musgrave 1970
+Hexagonal
+7140
+159	32.3	48.2	0	0	0
+32.3	159	48.2	0	0	0
+48.2	48.2	62.1	0	0	0
+0	0	0	40	0	0
+0	0	0	0	40	0
+0	0	0	0	0	63.35

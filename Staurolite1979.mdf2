@@ -1,0 +1,19 @@
+Staurolite
+[lattice]
+Deer, Howie & Zussman 1992
+Monoclinic
+7.85	16.6	5.65
+90
+1.736	1.742	1.748
+gamma	z	0
+alpha	y	0
+[elasticity]
+Hearmon 1979 (Bass 1995) 
+Orthorhombic
+3790
+343	67	61	0	0	0
+67	185	128	0	0	0
+61	128	147	0	0	0
+0	0	0	46	0	0
+0	0	0	0	70	0
+0	0	0	0	0	92

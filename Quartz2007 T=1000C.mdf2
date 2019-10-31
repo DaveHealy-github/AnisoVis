@@ -1,0 +1,16 @@
+Quartz T=1000 C
+[lattice]
+Deer, Howie & Zussman 1992
+Hexagonal
+5.01	5.47
+1.544	1.553
+[elasticity]
+Lakshtanov et al. 2007
+Hexagonal
+2534
+140.1	35.2	52.8	0	0	0
+35.2	140.1	52.8	0	0	0
+52.8	52.8	125.4	0	0	0
+0	0	0	39.7	0	0
+0	0	0	0	39.7	0
+0	0	0	0	0	52.5

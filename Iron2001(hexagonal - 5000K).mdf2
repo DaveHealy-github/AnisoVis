@@ -1,0 +1,16 @@
+Iron 5000K
+[lattice]
+https://www.mindat.org/min-2047.html
+Hexagonal
+2.8664
+999
+[elasticity]
+Steinle-Neumann et al., 2001
+Hexagonal
+13040
+2050	1720	860	0	0	0
+1720	2050	860	0	0	0
+860 	860	1555	0	0	0
+0	0	0	210	0	0
+0	0	0	0	210	0
+0	0	0	0	0	165

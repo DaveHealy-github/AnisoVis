@@ -1,0 +1,19 @@
+Orthoclase
+[lattice]
+Deer, Howie and Zussman 1992
+Triclinic
+8.59	12.966	7.223
+90.65	115.96	87.65
+1.529	1.533	1.539
+alpha	x	99
+beta	y	99
+[elasticity]
+Hearmon 1984 (Bass 1995)
+Monoclinic
+2563
+80.8	37.9	52.9	0	-15.7	0
+37.9	163	32.7	0	-23.7	0
+52.9	32.7	124	0	-6	0
+0	0	0	18.7	0	-0.9
+-15.7	-23.7	-6	0	27.1	0
+0	0	0	-0.9	0	35.7

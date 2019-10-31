@@ -1,0 +1,18 @@
+Enstatite80
+[lattice]
+Deer, Howie & Zussman 1992
+Orthorhombic
+18.223	8.815	5.169
+1.649	1.653	1.657
+alpha	y	0
+gamma	z	0
+[elasticity]
+Duffy & Vaughan 1988 (Bass 1995)
+Orthorhombic
+3354
+228.6	71.0	54.8	0	0	0
+71.0	160.5	46.0	0	0	0
+54.8	46.0	210.4	0	0	0
+0	0	0	81.8	0	0
+0	0	0	0	75.5	0
+0	0	0	0	0	77.7

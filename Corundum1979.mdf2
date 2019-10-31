@@ -1,0 +1,16 @@
+Corundum
+[lattice]
+Deer, Howie & Zussman 1992
+Trigonal
+4.76	12.98
+1.76	1.768
+[elasticity]
+Hearmon 1979 (Bass 1995)
+Trigonal
+3999
+495	160	115	-23	0	0
+160	495	115	23	0	0
+115	115	497	0	0	0
+-23	23	0	146	0	0
+0	0	0	0	146	-23
+0	0	0	0	-23	167.5

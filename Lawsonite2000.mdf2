@@ -1,0 +1,18 @@
+Lawsonite
+[lattice]
+Deer, Howie & Zussman 1992
+Orthorhombic
+8.8	5.85	13.1
+1.663	1.672	1.682
+gamma	y	0
+beta	x	0
+[elasticity]
+Sinogeikin et al. 2000
+Orthorhombic
+3090
+226	69	65	0	0	0
+69	214	82	0	0	0
+65	82	259	0	0	0
+0	0	0	65	0	0
+0	0	0	0	60	0
+0	0	0	0	0	17

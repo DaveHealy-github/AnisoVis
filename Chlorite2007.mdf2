@@ -1,0 +1,19 @@
+Chlorite
+[lattice]
+Deer, Howie & Zussman 1992
+Monoclinic
+5.3	9.2	14.3
+97
+1.62	1.63	1.63
+beta	y	0
+alpha	z	3
+[elasticity]
+Bayuk et al. 2007
+Monoclinic
+2690
+181.8	150.55	20.3	0	0	0
+150.55	181.8	20.3	0	0	0
+20.3	20.3	106.8	0	0	0
+0	0	0	11.4	0	0
+0	0	0	0	11.4	0
+0	0	0	0	0	62.5

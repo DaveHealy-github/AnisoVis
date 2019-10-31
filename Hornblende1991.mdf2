@@ -1,0 +1,19 @@
+Hornblende
+[lattice]
+Deer, Howie & Zussman 1992
+Monoclinic
+9.9	18.0	5.3
+105.5
+1.611	1.615	1.630
+gamma	z	20
+beta	y	0
+[elasticity]
+Babuska & Cara 1991
+Monoclinic
+3124
+116	45	61.4	0	4	0
+45	160	65.5	0	-2.5	0
+61.4	65.5	192	0	10	0
+0	0	0	57.4	0	-6.2
+4	-2.5	10	0	31.8	0
+0	0	0	-6.2	0	36.8

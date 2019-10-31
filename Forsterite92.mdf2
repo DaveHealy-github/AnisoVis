@@ -1,0 +1,18 @@
+Forsterite92
+[lattice]
+Deer, Howie & Zussman 1992
+Orthorhombic
+4.75	10.2	5.98
+1.635	1.651	1.670
+gamma	x	0
+alpha	y	0
+[elasticity]
+Ohno 1976 (Bass 1995) 
+Orthorhombic
+3299
+319	59	76	0	0	0
+59	192	72	0	0	0
+76	72	238	0	0	0
+0	0	0	63.8	0	0
+0	0	0	0	78.3	0
+0	0	0	0	0	79.7

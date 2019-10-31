@@ -1,0 +1,18 @@
+Anhydrite
+[lattice]
+Deer, Howie and Zussman 1992
+Orthorhombic
+6.2451	6.9952	6.9932
+1.569	1.574	1.609
+gamma	z	0
+alpha	y	0
+[elasticity]
+Hearmon 1979 (Bass 1995)
+Orthorhombic
+2963
+93.8	16.5	15.2	0	0	0
+16.5	185	31.7	0	0	0
+15.2	31.7	112	0	0	0
+0	0	0	32.5	0	0
+0	0	0	0	26.5	0
+0	0	0	0	0	9.3

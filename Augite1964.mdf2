@@ -1,0 +1,19 @@
+Augite
+[lattice]
+Deer, Howie & Zussman 1992
+Monoclinic
+9.8	9	5.25
+105
+1.671	1.672	1.703
+beta	y	0
+gamma	z	41
+[elasticity]
+Alexandrov et al. 1964 (Bass 1995)
+Monoclinic
+3320
+181.6	73.4	72.4	0	19.9	0
+73.4	150.7	33.9	0	16.6	0
+72.4	33.9	217.8	0	24.6	0
+0	0	0	69.7	0	4.3
+19.9	16.6	24.6	0	51.1	0
+0	0	0	4.3	0	55.8

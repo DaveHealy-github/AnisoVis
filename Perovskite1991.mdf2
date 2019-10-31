@@ -1,0 +1,18 @@
+Perovskite
+[lattice]
+Deer, Howie & Zussman 1992
+Orthorhombic
+5.367	7.644	5.44
+2.26	2.26	2.26
+alpha	x	0
+beta	y	0
+[elasticity]
+Babuska & Cara 1991 (Bass 1995)
+Orthorhombic
+4108
+515	117	117	0	0	0
+117	525	139	0	0	0
+117	139	435	0	0	0
+0	0	0	179	0	0
+0	0	0	0	202	0
+0	0	0	0	0	175

@@ -1,0 +1,18 @@
+Zoisite
+[lattice]
+Deer, Howie & Zussman 1992
+Orthorhombic
+16.2	5.55	10.04
+1.685	1.688	1.697
+alpha	x	0
+beta	y	0
+[elasticity]
+Mao et al. 2007
+Orthorhombic
+3343
+279.8	94.7	88.7	0	0	0
+94.7	249.2	27.5	0	0	0
+88.7	27.5	209.4	0	0	0
+0	0	0	51.8	0	0
+0	0	0	0	81.4	0
+0	0	0	0	0	66.3

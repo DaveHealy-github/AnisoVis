@@ -1,0 +1,19 @@
+Albite (low)
+[lattice]
+Deer, Howie & Zussman 1992
+Triclinic
+8.14	12.79	7.16
+94.3	116.6	87.7 
+1.528	1.533	1.539
+alpha	x	99
+beta	y	99
+[elasticity] 
+Hearmon 1984 (Bass 1995)
+Monoclinic 
+2620
+74	36.4	39.4	0	-6.6	0
+36.4	131	31	0	-12.8	0
+39.4	31	128	0	-20	0
+0	0	0	17.3	0	-2.5
+-6.6	12.8	-20	0	29.6	0
+0	0	0	-2.5	0	32

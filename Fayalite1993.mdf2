@@ -1,0 +1,18 @@
+Fayalite
+[lattice]
+Deer, Howie & Zussman 1992
+Orthorhombic
+4.82	10.48	6.09
+1.827	1.869	1.879
+gamma 	x	0
+alpha	y	0
+[elasticity]
+Isaak et al. 1993 (Bass 1995)
+Orthorhombic
+4380
+266	94	92	0	0	0
+94	168	92	0	0	0
+92	92	232	0	0	0
+0	0	0	32.3	0	0
+0	0	0	0	46.5	0
+0	0	0	0	0	57

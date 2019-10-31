@@ -1,0 +1,16 @@
+Ilmenite
+[lattice]
+Deer, Howie & Zussman 1992
+Trigonal
+5.09	14.08
+2.7	2.7
+[elasticity]
+Babuska & Cara 1991
+Trigonal
+3820
+472	168	70	-27	24	0
+168	472	70	27	-24	0
+70	70	382	0	0	0
+-27	27	0	106	0	0
+24	-24	0	0	106	0
+0	0	0	0	0	152

@@ -1,0 +1,16 @@
+Cesium
+[lattice]
+Kollarits & Trivisonno, 1968
+Cubic
+6.141
+9.99
+[elasticity]
+Kollarits & Trivisonno, 1968
+Cubic
+1980
+2.465	2.055	2.055	0 	0	0
+2.055	2.465	2.055	0	0	0
+2.055	2.055	2.465	0	0	0
+0	0	0	1.48	0	0
+0	0	0	0	1.48	0
+0	0	0	0	0	1.48

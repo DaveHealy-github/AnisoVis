@@ -1,0 +1,19 @@
+Diopside 2
+[lattice]
+Deer, Howie & Zussman 1992
+Monoclinic
+9.8	8.95	5.3
+105.3
+1.664	1.672	1.694
+gamma	z	44
+beta	y	0
+[elasticity]
+Alexandrov et al. 1964 (Bass 1995)
+Monoclinic
+3310
+204	84.4	88.3	0	-19.3	0
+84.4	175	48.2	0	-19.6	0
+88.3	48.2	238	0	-33.6	0
+0	0	0	67.5	0	-11.3
+-19.3	-19.6	-33.6	0	58.8	0
+0	0	0	-11.3	0	70.5
