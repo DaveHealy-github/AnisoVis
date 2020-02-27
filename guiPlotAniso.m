@@ -3,7 +3,7 @@ function guiPlotAniso(sFilename, sColour, nIncrement, ...
                  fVp, fVs1, fVs2, fDeltaVs, fVpPol, fVs1Pol, fVs2Pol, ...
                  fWp, fWs1, fWs2, ...
                  fVelocity, fBiref, fOptic, ... 
-                 fShape, fOBJ, fSphere, fStereo, ...
+                 fShape, fOBJ, fSphere, fStereo, fLine, ...
                  fEqualArea, fEqualAngle, fLowHem, fUppHem)
 %   guiPlotAniso.m 
 %       main routine for calculating anisotropic properties, looping through
@@ -400,6 +400,8 @@ if fElastic
     maxG = max(max(G3Dmax)) ; 
     minG = min(min(G3Dmin)) ; 
 
+    selectedPlanes = {'100' ; '010' ; '001'} ;   
+
     if fYoungs
 
         if fStereo
@@ -417,6 +419,10 @@ if fElastic
                           'GPa', 'Young''s modulus', sColour) ; 
         end 
 
+        if fLine 
+            guiPlot2DPlanesE(s4, sLattice, nIncrement, selectedPlanes) ; 
+        end 
+    
     end 
 
     if fShear
@@ -444,6 +450,10 @@ if fElastic
                           'GPa', 'Shear modulus, minimum', sColour) ; 
             guiPlotSphere(G3Dmax/1e9, Gvrh/1e9, nIncrement, sLattice, ... 
                           'GPa', 'Shear modulus, maximum', sColour) ; 
+        end 
+        
+        if fLine 
+            guiPlot2DPlanesG(s4, sLattice, nIncrement, selectedPlanes) ; 
         end 
 
     end 
@@ -499,6 +509,10 @@ if fElastic
                           '', 'Poisson''s ratio, areal', sColour) ; 
         end 
 
+        if fLine 
+            guiPlot2DPlanesNu(s4, sLattice, nIncrement, selectedPlanes) ; 
+        end 
+
     end
     
     if fLinear
@@ -519,13 +533,6 @@ if fElastic
         end 
 
     end
-    
-%     %   plot 2D graphs for selected planes 
-%     selectedPlanes = { '100' } ;   
-% %     guiPlot2DPlanes(s4, sLattice, nIncrement, selectedPlanes) ; 
-%     guiPlot2DPlanesOverlayE_100(s4, sLattice, nIncrement, selectedPlanes) ; 
-%     guiPlot2DPlanesOverlayG_100(s4, sLattice, nIncrement, selectedPlanes) ; 
-%     guiPlot2DPlanesOverlayNu_100(s4, sLattice, nIncrement, selectedPlanes) ; 
     
 end 
 

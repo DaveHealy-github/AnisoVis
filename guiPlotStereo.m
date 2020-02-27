@@ -61,7 +61,7 @@ end ;
 %   draw the primitive 
 xlim = max(max(xstereo)) ; 
 rprim = xlim ; 
-xprim = -rprim:0.001:rprim ;
+xprim = -rprim:0.01:rprim ;
 yprim = sqrt(rprim^2 - xprim.^2) ; 
 
 surf(xstereo, ystereo, Q(:, ceil(size(Q,2)/2):size(Q,2)), 'EdgeColor', 'none') ;
