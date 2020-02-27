@@ -1,28 +1,28 @@
 function varargout = AnisoVis(varargin)
-% GUIANISOVIS2 MATLAB code for guiAnisoVis2.fig
-%      GUIANISOVIS2, by itself, creates a new GUIANISOVIS2 or raises the existing
+% AnisoVis MATLAB code for AnisoVis.fig
+%      AnisoVis, by itself, creates a new AnisoVis or raises the existing
 %      singleton*.
 %
-%      H = GUIANISOVIS2 returns the handle to a new GUIANISOVIS2 or the handle to
+%      H = AnisoVis returns the handle to a new AnisoVis or the handle to
 %      the existing singleton*.
 %
-%      GUIANISOVIS2('CALLBACK',hObject,eventData,handles,...) calls the local
-%      function named CALLBACK in GUIANISOVIS2.M with the given input arguments.
+%      AnisoVis('CALLBACK',hObject,eventData,handles,...) calls the local
+%      function named CALLBACK in AnisoVis.M with the given input arguments.
 %
-%      GUIANISOVIS2('Property','Value',...) creates a new GUIANISOVIS2 or raises the
+%      AnisoVis('Property','Value',...) creates a new AnisoVis or raises the
 %      existing singleton*.  Starting from the left, property value pairs are
-%      applied to the GUI before guiAnisoVis2_OpeningFcn gets called.  An
+%      applied to the GUI before AnisoVis_OpeningFcn gets called.  An
 %      unrecognized property name or invalid value makes property application
-%      stop.  All inputs are passed to guiAnisoVis2_OpeningFcn via varargin.
+%      stop.  All inputs are passed to AnisoVis_OpeningFcn via varargin.
 %
 %      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
 %      instance to run (singleton)".
 %
 % See also: GUIDE, GUIDATA, GUIHANDLES
 
-% Edit the above text to modify the response to help guiAnisoVis2
+% Edit the above text to modify the response to help AnisoVis
 
-% Last Modified by GUIDE v2.5 12-Sep-2019 11:34:48
+% Last Modified by GUIDE v2.5 17-Jan-2020 14:28:25
 
 %% Copyright
 % Permission is hereby granted, free of charge, to any person obtaining a
@@ -48,8 +48,8 @@ function varargout = AnisoVis(varargin)
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
-                   'gui_OpeningFcn', @guiAnisoVis2_OpeningFcn, ...
-                   'gui_OutputFcn',  @guiAnisoVis2_OutputFcn, ...
+                   'gui_OpeningFcn', @AnisoVis_OpeningFcn, ...
+                   'gui_OutputFcn',  @AnisoVis_OutputFcn, ...
                    'gui_LayoutFcn',  [] , ...
                    'gui_Callback',   []);
 if nargin && ischar(varargin{1})
@@ -64,23 +64,19 @@ end
 % End initialization code - DO NOT EDIT
 
 
-% --- Executes just before guiAnisoVis2 is made visible.
-function guiAnisoVis2_OpeningFcn(hObject, eventdata, handles, varargin)
+% --- Executes just before AnisoVis is made visible.
+function AnisoVis_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-% varargin   command line arguments to guiAnisoVis2 (see VARARGIN)
+% varargin   command line arguments to AnisoVis (see VARARGIN)
 
-% Choose default command line output for guiAnisoVis2
+% Choose default command line output for AnisoVis
 handles.output = hObject;
 
-handles.AnisoVisversion = '0.9' ; 
+handles.AnisoVisversion = '1.0' ; 
 disp(['AnisoVis version ', handles.AnisoVisversion]) ; 
-
-axes(handles.axesLogo) ;
-imLogo = imread('logo.jpeg') ; 
-imshow(imLogo, [], 'XData', [0 47], 'YData', [0 10]) ; 
 
 axes(handles.axesColour) ;
 list = get(handles.popupmenuColour, 'String') ; 
@@ -91,12 +87,12 @@ imshow(imColour, [], 'XData', [0 14], 'YData', [0 3]) ;
 % Update handles structure
 guidata(hObject, handles);
 
-% UIWAIT makes guiAnisoVis2 wait for user response (see UIRESUME)
+% UIWAIT makes AnisoVis wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
 
 % --- Outputs from this function are returned to the command line.
-function varargout = guiAnisoVis2_OutputFcn(hObject, eventdata, handles) 
+function varargout = AnisoVis_OutputFcn(hObject, eventdata, handles) 
 % varargout  cell array for returning output args (see VARARGOUT);
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
@@ -247,7 +243,7 @@ flagError = false ;
 
 %   ok, lets plot 
 if ~flagError 
-    
+
     %   get the filename, with full path 
     sFilename = get(handles.editFilename, 'String') ; 
     
@@ -285,6 +281,8 @@ if ~flagError
     flagEqualAngle = get(handles.radiobuttonEqualAngle, 'Value') ;
     flagLowHem = get(handles.radiobuttonLowHem, 'Value') ;
     flagUppHem = get(handles.radiobuttonUppHem, 'Value') ;
+    flagLine = false ; 
+    flagLine = get(handles.checkboxLineGraphs, 'Value') ; 
     
     list = get(handles.popupmenuColour, 'String') ; 
     sColour = list{get(handles.popupmenuColour, 'Value')} ; 
@@ -301,7 +299,7 @@ if ~flagError
                  flagVpPol, flagVs1Pol, flagVs2Pol, ...
                  flagWp, flagWs1, flagWs2, ...
                  flagVelocity, flagBiref, flagOptic, ... 
-                 flagShape, flagOBJ, flagSphere, flagStereo, ... 
+                 flagShape, flagOBJ, flagSphere, flagStereo, flagLine, ... 
                  flagEqualArea, flagEqualAngle, flagLowHem, flagUppHem) ; 
              
     set(handles.textMessage, 'String', 'All done; check folder for plot figure files (*.tif)') ; 
@@ -464,3 +462,24 @@ function checkboxWs2_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 
 % Hint: get(hObject,'Value') returns toggle state of checkboxWs2
+
+
+% --- Executes on button press in pushbuttonSummary.
+function pushbuttonSummary_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbuttonSummary (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+list = get(handles.popupmenuIncrement, 'String') ; 
+nIncrement = str2double(list{get(handles.popupmenuIncrement, 'Value')}) ; 
+guiPlotSummaries2(nIncrement) ; 
+set(handles.textMessage, 'String', 'All done; check folder for plot figure files (*.tif)') ; 
+
+% --- Executes on button press in checkboxLineGraphs.
+function checkboxLineGraphs_Callback(hObject, eventdata, handles)
+% hObject    handle to checkboxLineGraphs (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkboxLineGraphs
+disp('Hello') ; 
