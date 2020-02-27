@@ -35,6 +35,6 @@ print(fig, '-dtiff', '-r600', [fn, '.tif']) ;
 
 %   add some AnisoVis metadata to the .tif file 
 t = Tiff([fn, '.tif'], 'r+') ; 
-t.setTag('Artist', 'AnisoVis version 0.9') ; 
+t.setTag('Artist', 'AnisoVis version 1.0') ; 
 t.rewriteDirectory() ; 
 t.close() ; 

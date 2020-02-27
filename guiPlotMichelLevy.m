@@ -72,7 +72,7 @@ end ;
 fML = figure('Name', 'Calculated Michel-Levy chart') ; 
 set(gcf, 'PaperPositionMode', 'manual') ; 
 set(gcf, 'PaperUnits', 'inches') ; 
-set(gcf, 'PaperPosition', [ 0.25 0.25 9 4 ]) ; 
+set(gcf, 'PaperPosition', [ 0.25 0.25 12 4 ]) ; 
 
 image(imgMichelLevy) ; 
 ax = gca ; 
@@ -80,7 +80,7 @@ ax.YDir = 'normal' ;
 ylim([10 40]) ; 
 colormap(RGBnonlinear') ; 
 box on ; 
-grid on ; 
+% grid on ; 
 ylabel('Thickness, micrometre') ; 
 xlabel('Retardation, nanometre') ; 
 title({'Calculated Michel-Levy interefence colour chart'; ... 
